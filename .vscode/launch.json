@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:mcping}/src/swift",
+            "name": "Debug cursor-agent-notifier (src/swift)",
+            "program": "${workspaceFolder:mcping}/src/swift/.build/debug/cursor-agent-notifier",
+            "preLaunchTask": "swift: Build Debug cursor-agent-notifier (src/swift)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:mcping}/src/swift",
+            "name": "Release cursor-agent-notifier (src/swift)",
+            "program": "${workspaceFolder:mcping}/src/swift/.build/release/cursor-agent-notifier",
+            "preLaunchTask": "swift: Build Release cursor-agent-notifier (src/swift)"
+        }
+    ]
+}
